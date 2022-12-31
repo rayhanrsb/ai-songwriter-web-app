@@ -1,6 +1,8 @@
 # AI Song Lyrics Assistant
 
-This is a project that explores how AI can be used to enhance the songwriting process. It is built on GPT-3
+This is a project that explores how AI can be used to enhance the songwriting process. It is built on GPT-3.
+
+See it live [here](https://ai-songwriter-web-app-production.up.railway.app/).
 
 ## Technologies used
 
