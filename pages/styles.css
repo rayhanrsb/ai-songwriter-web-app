@@ -382,11 +382,19 @@ textarea {
     }
 
     .prompt-container {
-        max-width: 400px;
+        max-width: 300px;
         width: 100%;
     }
 
     .prompt-box {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 290px) {
+    .prompt-container {
+        max-width: 220px;
         width: 100%;
     }
 }
