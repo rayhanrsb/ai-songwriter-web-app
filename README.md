@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Song Lyrics Assistant
 
-## Getting Started
+This is a project that explores how AI can be used to enhance the songwriting process. It is built on GPT-3
 
-First, run the development server:
+## Technologies used
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- GPT-3
+- Typescript/Javascript
+- Next.js
+- React.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Progress
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+V1 is complete, offering a simple tool that generates 5 ideas for possible song verses when given a scenario. Under the hood, it will take the scenario it is given (e.g. "I am watching the sunset on the beach") and it will generate five song ideas. Using promt chaining, it will then generate a verse for each of the five song ideas it generated.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Next steps:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+V2 will allow users to submit more details about the specific genre, style and inspirations for their song. The app will then generate verse recommendations with music theory suggestions (for example, it could suggest a verse and say that that verse would go well with minor chord progressions and orchestral instrumentation).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+V3 will allow users to ask for suggestions around musical aspects of the song, for example aksing for possible chord variations or musical instruments for a given verse. It will also give suggestions to users on how to rephrase existing verses, for example taking an incomplete verse and making it rhyme.
 
-## Learn More
+## See it live
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+It is hosted live [here](https://ai-songwriter-web-app-production.up.railway.app/).
