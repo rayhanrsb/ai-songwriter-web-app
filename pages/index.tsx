@@ -31,6 +31,9 @@ export default function Home() {
 
     setApiOutput(`${output.text}`);
     setIsGenerating(false);
+    document
+      .getElementById("output-content-div")
+      ?.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <div className="root">
@@ -78,7 +81,7 @@ export default function Home() {
                   <h3>Output</h3>
                 </div>
               </div>
-              <div className="output-content">
+              <div className="output-content" id="output-content-div">
                 <p>{apiOutput}</p>
               </div>
             </div>
